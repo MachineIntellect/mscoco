@@ -4,5 +4,6 @@ channels:
 dependencies:         # everything under this, installed by conda
 - Cython
 - numpy
+- matplotlib
 - pip:                # everything under this, installed by pip
   - pycocotools
