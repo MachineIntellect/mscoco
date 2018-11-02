@@ -1,0 +1,7 @@
+name: root            # default is root
+channels:
+- defaults
+dependencies:         # everything under this, installed by conda
+- Cython
+- pip:                # everything under this, installed by pip
+  - pycocotools
